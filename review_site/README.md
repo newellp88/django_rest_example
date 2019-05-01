@@ -38,5 +38,8 @@ mysql > GRANT ALL PRIVELEGES ON *.* TO 'peter'@'localhost' WITH GRANT OPTION;
 mysql > CREATE DATABASE review_site;
 mysql > exit
 ```
-Now that the database is setup, we should install the mysqlclient driver like this:
-`sudo apt-get install default-libmysqlclient-dev`
+Now that the database is setup, install the mysqlclient driver:
+```
+sudo apt-get install default-libmysqlclient-dev
+pip install mysqlclient
+```
